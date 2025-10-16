@@ -1,0 +1,50 @@
+class Result {
+    public static SinglyLinkedListNode append(SinglyLinkedListNode head,int data){
+    SinglyLinkedListNode newNode=new SinglyLinkedListNode(data);
+    if(head==null) head=newNode;
+    else{
+        SinglyLinkedListNode temp=head;
+        while(temp.next!=null){
+            temp=temp.next;
+        }
+        temp.next=newNode;
+    }
+    return head;
+    }
+
+    public static SinglyLinkedListNode prepend(SinglyLinkedListNode head,int data){
+        SinglyLinkedListNode newNode=new SinglyLinkedListNode(data);
+        if(head==null) head=newNode;
+        else{
+            newNode.next=head;
+            head=newNode;
+        }
+        return head;
+    }
+
+    //Helper function to calculate the length of ll
+    public static int GetSize(SinglyLinkedListNode head){
+        int count=0;
+        SinglyLinkedListNode temp=head;
+        while(temp!=null){
+            count++;
+            temp=temp.next;
+        }
+        return count;
+    }
+ public static SinglyLinkedListNode insertNodeAtPosition(SinglyLinkedListNode llist, int data, int position) {
+    // Write your code here
+    int size=GetSize(llist);
+    if(position<0 || position>size) return null;
+    if(position==0) return append(llist, data);
+    if(position==size) return prepend(llist, data);
+    else{
+        SinglyLinkedListNode newNode = new SinglyLinkedListNode(data);
+        SinglyLinkedListNode temp=llist;
+        for(int i=0;i<position-1;i++) temp=temp.next;
+        newNode.next=temp.next;
+        temp.next=newNode;
+    }
+       return llist;
+ }
+}
