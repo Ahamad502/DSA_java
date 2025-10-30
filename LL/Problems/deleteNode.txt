@@ -1,0 +1,84 @@
+class Result {
+
+    /*
+     * Complete the 'deleteNode' function below.
+     *
+     * The function is expected to return an INTEGER_SINGLY_LINKED_LIST.
+     * The function accepts following parameters:
+     *  1. INTEGER_SINGLY_LINKED_LIST llist
+     *  2. INTEGER position
+     */
+
+    /*
+     * For your reference:
+     *
+     * SinglyLinkedListNode {
+     *     int data;
+     *     SinglyLinkedListNode next;
+     * }
+     *
+     */
+
+    public static SinglyLinkedListNode deleteNode(SinglyLinkedListNode llist, int position) {
+        // empty list
+        if (llist == null) return null;
+
+        // delete from front
+        if (position == 0) {
+            return deleteFront(llist);
+        }
+
+        int size = getSize(llist);
+        if (position < 0 || position >= size) {
+            // invalid position, just return original list
+            return llist;
+        }
+
+        // delete from back
+        if (position == size - 1) {
+            return deleteBack(llist);
+        }
+
+        // delete from middle
+        SinglyLinkedListNode temp = llist;
+        for (int i = 0; i < position - 1; i++) {
+            temp = temp.next;
+        }
+
+        SinglyLinkedListNode nodeToDelete = temp.next;
+        temp.next = nodeToDelete.next;
+        nodeToDelete.next = null;
+
+        return llist;
+    }
+
+    public static SinglyLinkedListNode deleteFront(SinglyLinkedListNode head) {
+        if (head == null) return null;
+        SinglyLinkedListNode temp = head;
+        head = head.next;
+        temp.next = null;
+        return head;
+    }
+
+    public static int getSize(SinglyLinkedListNode head) {
+        int count = 0;
+        SinglyLinkedListNode temp = head;
+        while (temp != null) {
+            count++;
+            temp = temp.next;
+        }
+        return count;
+    }
+
+    public static SinglyLinkedListNode deleteBack(SinglyLinkedListNode head) {
+        if (head == null) return null;
+        if (head.next == null) return null; // only one element
+
+        SinglyLinkedListNode temp = head;
+        while (temp.next.next != null) {
+            temp = temp.next;
+        }
+        temp.next = null;
+        return head;
+    }
+}
