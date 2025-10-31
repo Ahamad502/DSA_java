@@ -13,13 +13,11 @@ LinkedList:(constructor,append,prepend,removeFirst,removeLast,get,set,insert,rem
 - **203)removeElements - LeetCode**
 - **206)reverseList - LeetCode**
 - **21)mergeTwoLists - LeetCode**
-- **234)isPalindrome - LeetCode*
+- **234)isPalindrome - LeetCode**
 - **160)getIntersectionNode - Leetcode**
 - **237)DeleteNodeinaLinkedlist - Leetcode**
-- **
-
-  
-[//]: # (  1836&#41;removeDuplicatesUnsorted - LeetCode)
+- **328)oddEvenList-Leetcode**
+- **1836)removeDuplicatesUnsorted - LeetCode**
 
   
 
