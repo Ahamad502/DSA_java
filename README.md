@@ -1,6 +1,10 @@
-Arrays:  (02/59)
+Arrays:  (04/59)
 - **reverseArray - HR**
 - **rotateLeft - HR**
+- **ContainsDuplicates- LC**
+- **Third_largest-LC**
+- **TwoSums - LC**
+- ****
 
 
 
