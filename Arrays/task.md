@@ -3,10 +3,10 @@
 ## EASY
 - Reverse an Array ([HackerRank](https://www.hackerrank.com/challenges/arrays-ds/problem)) * ✅
 - Array Left Rotation ([HackerRank](https://www.hackerrank.com/challenges/array-left-rotation/problem)) * ✅
-- Delete a Node ([HackerRank](https://www.hackerrank.com/challenges/delete-a-node/problem)) *
+- Delete a Node ([HackerRank](https://www.hackerrank.com/challenges/delete-a-node/problem)) * 
 - Second Largest Element in Array ([HackerRank](https://www.hackerrank.com/))
-- Two Sum ([LeetCode #1](https://leetcode.com/problems/two-sum/))
-- Contains Duplicate ([LeetCode #217](https://leetcode.com/problems/contains-duplicate/))
+- Two Sum ([LeetCode #1](https://leetcode.com/problems/two-sum/)) ✅
+- Contains Duplicate ([LeetCode #217](https://leetcode.com/problems/contains-duplicate/)) ✅
 - Intersection of Two Arrays ([LeetCode #349](https://leetcode.com/problems/intersection-of-two-arrays/))
 - Intersection of Two Arrays II ([LeetCode #350](https://leetcode.com/problems/intersection-of-two-arrays-ii/))
 - Remove Duplicates from Sorted Array ([LeetCode #26](https://leetcode.com/problems/remove-duplicates-from-a-sorted-array/))
