@@ -1,4 +1,4 @@
-Arrays:  (08/59)
+Arrays:  (09/59)
 - **reverseArray - HR**
 - **rotateLeft - HR**
 - **ContainsDuplicates- LC**
@@ -7,6 +7,7 @@ Arrays:  (08/59)
 - **Intersection - LC**
 - **Intersect2 - LC**
 - **RemoveDuplicatesFromSortedlist - LC**
+- **Remove Elements**
 - 
 
 
