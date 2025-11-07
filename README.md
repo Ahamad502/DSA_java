@@ -8,7 +8,7 @@ Arrays:  (10/59)
 - **Intersect2 - LC**
 - **RemoveDuplicatesFromSortedlist - LC**
 - **Remove Elements - LC**
-- **All zeroes - LC**
+- **All_zeroes - LC**
 
 
 
