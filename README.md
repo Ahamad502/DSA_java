@@ -9,7 +9,8 @@ Arrays:  (10/59)
 - **RemoveDuplicatesFromSortedlist - LC**
 - **Remove Elements - LC**
 - **All zeroes - LC**
-
+- **Plus_one - LC**
+- 
 
 
 LinkedList:(constructor,append,prepend,removeFirst,removeLast,get,set,insert,remove)
