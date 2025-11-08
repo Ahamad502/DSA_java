@@ -1,4 +1,4 @@
-Arrays:  (11/59)
+Arrays:  (12/59)
 - **reverseArray - HR**
 - **rotateLeft - HR**
 - **ContainsDuplicates- LC**
@@ -10,7 +10,7 @@ Arrays:  (11/59)
 - **Remove Elements - LC**
 - **All zeroes - LC**
 - **Plus_one - LC**
-- 
+- **Single Number - LC**
 
 
 LinkedList:(constructor,append,prepend,removeFirst,removeLast,get,set,insert,remove)
