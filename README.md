@@ -11,6 +11,7 @@ Arrays:  (12/59)
 - **All zeroes - LC**
 - **Plus_one - LC**
 - **Single Number - LC**
+- **Majority Number - LC**
 
 
 LinkedList:(constructor,append,prepend,removeFirst,removeLast,get,set,insert,remove)
