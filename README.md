@@ -12,6 +12,8 @@ Arrays:  (13/59)
 - **Plus_one - LC**
 - **Single Number - LC**
 - **Majority Number - LC**
+- **Max Profit - LC**
+- **Consecutive ones - LC**
 
 
 LinkedList:(constructor,append,prepend,removeFirst,removeLast,get,set,insert,remove)
