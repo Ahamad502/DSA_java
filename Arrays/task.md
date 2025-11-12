@@ -18,7 +18,7 @@
 - Best Time to Buy and Sell Stock I ([LeetCode #121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)) ✅
 - Max Consecutive Ones ([LeetCode #485](https://leetcode.com/problems/max-consecutive-ones/)) ✅
 - Shuffle an Array ([LeetCode #384](https://leetcode.com/problems/shuffle-an-array/))
-- Find the Duplicate Number ([LeetCode #287](https://leetcode.com/problems/find-the-duplicate-number/)) *
+- Find the Duplicate Number ([LeetCode #287](https://leetcode.com/problems/find-the-duplicate-number/)) ✅
 - Rotate Array ([LeetCode #189](https://leetcode.com/problems/rotate-array/)) *
 
 ## MEDIUM
