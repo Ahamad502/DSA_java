@@ -14,6 +14,8 @@ Arrays:  (15/59)
 - **Majority Number - LC**
 - **Max Profit - LC**
 - **Consecutive ones - LC**
+- **find Duplicates - LC**
+
 
 
 LinkedList:(constructor,append,prepend,removeFirst,removeLast,get,set,insert,remove)
