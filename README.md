@@ -1,4 +1,4 @@
-Arrays:  (16/59)
+Arrays:  (17/59)
 - **reverseArray - HR**
 - **rotateLeft - HR**
 - **ContainsDuplicates- LC**
@@ -15,6 +15,7 @@ Arrays:  (16/59)
 - **Max Profit - LC**
 - **Consecutive ones - LC**
 - **find Duplicates - LC**
+- **Rotate Array-L189**
 
 
 
