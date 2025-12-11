@@ -1,4 +1,4 @@
-Arrays:  (17/59)
+Arrays:  (18/59)
 - **reverseArray - HR**
 - **rotateLeft - HR**
 - **ContainsDuplicates- LC**
@@ -16,6 +16,8 @@ Arrays:  (17/59)
 - **Consecutive ones - LC**
 - **find Duplicates - LC**
 - **Rotate Array-L189**
+- **Missing Number-L268**
+- 
 
 
 
