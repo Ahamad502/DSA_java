@@ -1,4 +1,4 @@
-Arrays:  (18/59)
+Arrays:  (19/59)
 - **reverseArray - HR**
 - **rotateLeft - HR**
 - **ContainsDuplicates- LC**
@@ -17,6 +17,7 @@ Arrays:  (18/59)
 - **find Duplicates - LC**
 - **Rotate Array-L189**
 - **Missing Number-L268**
+- **Squares Array-L977**
 - 
 
 
