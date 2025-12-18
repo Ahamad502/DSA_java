@@ -1,4 +1,4 @@
-Arrays:  (21/59)
+Arrays:  (22/59)
 - **reverseArray - HR**
 - **rotateLeft - HR**
 - **ContainsDuplicates- LC**
@@ -20,6 +20,8 @@ Arrays:  (21/59)
 - **Squares Array-L977**
 - **Product except number-L238**
 - **K_largest-LC215**
+- **Three_sum-L15**
+- 
 
 
 
